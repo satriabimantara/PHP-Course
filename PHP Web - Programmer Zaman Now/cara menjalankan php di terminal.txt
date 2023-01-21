@@ -1,0 +1,4 @@
+--> php -S localhost:<port_number>
+
+example:
+--> php -S localhost:8080
