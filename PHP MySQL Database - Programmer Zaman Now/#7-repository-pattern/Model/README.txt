@@ -1,0 +1,2 @@
+----
+Dalam repository Model ini berisi kumpulan class-class yang merupakan implementasi dari Tabel-Tabel yang telah diimplementasikan dalam database. Semisal di database terdapat Tabel Comments, maka dalam folder Model kita membuat kelas yang merepresentasikan tabel tersebut.
