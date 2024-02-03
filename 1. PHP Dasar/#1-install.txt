@@ -1,0 +1,5 @@
+## Cara menginstall PHP di Windows
+
+1. Install XAMPP yaitu aplikasi PHP yang sudah dibundle (PHP, MySQL/MariaDB, Apache, Perl)
+2. Setting environtment variabel untuk memasukkan path PHP dari XAMPP ke sistem environtment variabel 
+--> copy C:\xampp\php ke dalam sistem variables di windows

@@ -1,0 +1,19 @@
+{
+    "name": "satriabimantara/library-composer",
+    "description": "Belajar membuat library composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Satriabimantara\\LibraryComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "I Made Satria Bimantara",
+            "email": "satriabimantara.md@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}

@@ -1,0 +1,76 @@
+#1. Hello World
+#2. Tipe data
+	- Integer, floating
+	- underscore
+	- e notation
+	- integer overflow (apabila integer melebihi batas OS, maka diubah ke float)
+	- Boolean
+	- String
+	- Multiline String
+#3. Variable
+	- Variable
+	- Variable Variables (membuat variable dari string value variabel)
+	- Constant
+#4. Data Null
+#5. Tipe Data Array
+	- Tipe data Map dengan Array di PHP
+	- Array dalam Array
+#6. Operator
+	- Aritmatika
+	- Penugasan
+	- Perbandingan
+	- Logika
+#7. Increment dan Decrement
+#8. Operator Array
+	- Union: $a+$b
+	- Equality: $a==$b (tidak memperhatikan posisi asal key valuenya sama
+	- Identity: $a===$b (sama seperti Equality namun posisinya harus sama)
+	- Inequality: $a!=$b
+	- Nonidentity: $a!==$b
+#9. Expression, Statement, Block
+#10. Manipulasi String
+	- Konversi String ke Number atau sebaliknya
+	- Variable Parsing
+	- Curly Brace (menambahkan karakter tanpa adanya spasi pada saat variabel parsing)
+#11. IF, ELSE IF, ELSE statement
+#12. Switch statement
+#13. Ternary operator
+#14. Null Coalescing Operator
+	- Selain menggunakan isset() untuk mengecek suatu variabel null atau tidak, bisa menggunakan tanda ?? yang disebut null coalescing operator
+	- $action = $data['action'] ?? 'nothing';
+#15. FOR Loop
+#16. WHILE Loop
+#17. Break and Continue
+#18. FOR Each
+#19. Goto operator
+#20. Function
+	- Deklarasi function
+	- Parsing argument di function
+	- Type declaration pada argument di function
+	- Variable-length argument list
+#21. Return values
+	- Return type declaration
+#22. Variable function --> variable sebagai function
+#23. Anonymous Function
+ 	- Deklarasi anonymous function
+	- mengakses variable di luar closure dengan kata kunci use
+#24. Arrow function
+#25. Callback Function
+#26. Recursive Function
+#27. String function (Manipulasi data string)
+#28. Array function (Manipulasi data array)
+#29. Is Function
+#30. Require and Include
+	- Mengambil sebuah file PHP lainnya
+	- Require: kalau file yang diambil tidak ada, maka terjadi error dan program terhenti
+	- Include: kalau file yang diambil tidak ada, maka akan diberi peringatan, namun program tetap berjalan
+#31. require_once dan include_once
+	- tujuannya agar tidak menload file yang sama berulang kali, meminimalisir redeclare function yang sama agar tidak terjadi error
+#32. Variable scope
+	- Superglobal
+	- Global
+	- local
+	- Static
+#32. Reference
+	- Assign by reference
+	- Pass by reference (mengirim data ke function by reference)

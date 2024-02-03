@@ -1,0 +1,19 @@
+{
+    "name": "satriabimantara/coba-composer",
+    "description": "Mencoba composer Faker untuk digunakan di PHP",
+    "type": "project",
+    "require": {
+        "fakerphp/faker": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Satriabimantara\\CobaComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "I Made Satria Bimantara",
+            "email": "satriabimantara.md@gmail.com"
+        }
+    ]
+}

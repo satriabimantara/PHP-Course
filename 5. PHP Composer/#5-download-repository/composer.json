@@ -1,0 +1,28 @@
+{
+    "name": "satriabimantara/download-composer-library",
+    "description": "Menggunakan Composer Library yang sudah diunggah di Git Repository",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/satriabimantara/composer-library-example"
+    
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "satriabimantara/customer-library":"1.0.1",
+        "monolog/monolog": "3.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Satriabimantara\\DownloadComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "I Made Satria Bimantara",
+            "email": "satriabimantara.md@gmail.com"
+        }
+    ]
+}

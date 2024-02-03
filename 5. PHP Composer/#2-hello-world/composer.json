@@ -1,0 +1,18 @@
+{
+    "name": "satriabimantara/composer-hello-world",
+    "description": "Belajar menggunakan composer untuk Hello World",
+    "autoload": {
+        "psr-4": {
+            "Satriabimantara\\ComposerHelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "I Made Satria Bimantara",
+            "email": "satriabimantara.md@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "3.3.1"
+    }
+}

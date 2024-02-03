@@ -1,0 +1,27 @@
+{
+    "name": "satriabimantara/belajar-php-mvc",
+    "description": "Belajar PHP MVC",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Satriabimantara\\BelajarPhpMvc\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Satriabimantara\\BelajarPhpMvc\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "I Made Satria Bimantara",
+            "email": "satriabimantara.md@gmail.com"
+        }
+    ]
+}

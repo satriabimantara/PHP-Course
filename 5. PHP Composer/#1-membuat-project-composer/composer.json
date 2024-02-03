@@ -1,0 +1,17 @@
+{
+    "name": "satriabimantara/membuat-project-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Satriabimantara\\MembuatProjectComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "I Made Satria Bimantara",
+            "email": "satriabimantara.md@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,3 @@
+## Menjalankan kode PHP di CLI
+
+--> php nama_file.php
